@@ -1,0 +1,101 @@
+/* formts----------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles------- */
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/*------------------- 1st bannar:--- nav-title- images ------- */
+.main-bannar{
+
+background-color: blue;
+}
+
+nav ul{
+    display: flex;
+ 
+}
+
+/* list out  ---------- */
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+/* hober  ------------*/
+nav li:hover{
+background-color: gray;
+
+
+}
+
+
+ nav li a {
+text-decoration: none;
+color: white;
+font-size: 20px;
+padding: 20px;
+
+}
+
+/*-----------------
+                section-bannar
+                            ------------------ */
+.bannar{
+
+    display: flex;
+}
+h1{
+ font-size: 64px;
+}
+.half-width {
+
+    width: 50%;
+    padding-left: 80px;
+
+}
+
+.half-width h1 {
+    width: 485px;
+    height: 230px;
+
+}
+
+.link-button{
+text-decoration: none;
+color:white;
+background-color: rgb(175, 31, 5);
+padding: 13px;
+border-radius: 12px;
+
+}
+.link-button:hover{
+    background-color: black;
+}
+
+.half-width img {
+    width: 556.01px;
+    height: 438px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
