@@ -3,7 +3,7 @@
 /* common styles------- */
 body{
     font-family: 'Poppins', sans-serif;
-
+background-color: whitesmoke;
 }
 
 
@@ -51,7 +51,7 @@ h1{
 .half-width {
 
     width: 50%;
-    padding-left: 80px;
+    padding-left: 50px;
 
 }
 
@@ -83,22 +83,28 @@ border-radius: 12px;
 .players{
     width: 1050px;
      height: 474px;
-     background-color:whitesmoke;
      display: grid;
      grid-template-columns: repeat(3,1fr);
      grid-column-gap: 27px;
-     margin-left: 160px;
+    
+
+}
+.player:hover{
+    background-color: burlywood;
+
 }
 .player{
     width: 300px;
     height: 474px;
-    padding: 10px;
-background-color:whitesmoke;
-margin-bottom: 20px;
+    padding: 5px;
+    box-shadow: 10px 10px 20px black;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 .player-photo img{
     width: 300px;
-    height: 256px;
+    height: 256px; 
 
 }
 
@@ -107,8 +113,6 @@ margin-bottom: 20px;
     width: 300px;
     height: 154px;
 }
-
-
 
 
 
