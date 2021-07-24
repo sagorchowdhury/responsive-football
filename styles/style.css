@@ -1,126 +1,119 @@
-/* formts----------- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-/* common styles------- */
-body{
+/* start with single player */
+main{
     font-family: 'Poppins', sans-serif;
-background-color: whitesmoke;
 }
-
-.header{
-    background-color: blue; 
-}
-
-/*------------------- 1st bannar:--- nav-title- images ------- */
-.main-bannar{
-background-color: blue;
-margin-bottom: 20px;
-}
-
-nav ul{
+header{
     display: flex;
- 
+    justify-content: space-evenly;
+     background-color: rgb(16, 16, 161); 
+    margin-top:0px;
+    margin-left: 0px;
 }
-
-/* list  ---------- */
-nav li{
-    list-style: none;
-    margin-right: 20px;
-    padding-top: 15px;
+.ball img{
+    Width:556.01px;
+Height :438px;
+margin-top :153px;
+margin-bottom: 86px;
 }
-/* hober  ------------*/
-nav li:hover{
-background-color: gray;
-
-}
- nav li a {
-text-decoration: none;
-color: white;
-font-size: 20px;
-padding: 20px;
-
-}
-
-/*-----------------
-                section-bannar
-                            ------------------ */
-.bannar{
-
-    display: flex;
-}
-h1{
- font-size: 64px;
-}
-.half-width {
-
-    width: 50%;
-    padding-left: 50px;
-    height:420px ;
-
-}
-
-.half-width h1 {
-    width: 485px;
-    height: 230px;
-
-}
-
-.link-button{
-text-decoration: none;
-color:white;
-background-color: rgb(175, 31, 5);
-padding: 13px;
-border-radius: 12px;
-
-}
-.link-button:hover{
-    background-color: black;
-}
-
-.half-width img {
-    width:400.01px;
-    height: 350px;
+.header h1{
+    font-size: 64px;
+    margin-top: 207px;
+    margin-bottom: 40px;
+     color: #FFFFFF; 
+    
+    font-weight: 700px;
     
 }
-
-/* players -------------------------- */
-.players{
-    width: 1050px;
-     height: 474px;
-     display: grid;
-     grid-template-columns: repeat(3,1fr);
-     grid-column-gap: 27px;
+ header a{
+     color: white;
+     font-size: 16px;
+     background-color: #E02C6D;
+     border: 1px solid white;
+     padding: 10px 24px;
+     margin-bottom: 169px;
+     text-decoration: none;
+ }
+ header a:hover{
+     background-color: chocolate;
+ }
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
-
-
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content:space-around;
+    grid-gap: 30px;
+}
 .player{
     width: 300px;
-    height: 474px;
-    padding: 5px;
-    box-shadow: 10px 10px 20px black;
-    margin-left: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    height: 436px;
+    
+    background-color: #FFFFFF;
+    border: 15px solid #FFFFFF ;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-.player-photo img{
+.banner img{
     width: 300px;
-    height: 256px; 
-
+    height: 256px;
 }
-
-.player-info{
-    size: 16px;
+.bio-graphy{
+    font-size:13.5px ;
+}
+.bio-graphy p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3{
+    margin-bottom: 5px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 40px;
+}
+.advance{
+    display:flex;
+    
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+    
+}
+.world,.code{
     width: 300px;
-    height: 154px;
 }
+.about a{
+    text-decoration: none;
+    color: black;
+}
+.legal a{
+    text-decoration: none;
+    color: black;
+}
+.legal{
+    margin-bottom: 60px;
+}
+.about{
+    margin-bottom: 25px;
+}
+.logo img{
+    width: 262.1px;
 
-
-
-
-
-
-
-
-
-
-
-
+    height: 110px;
+}
+ .footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ }
+  .img{
+      margin-bottom: 20px;
+      font-size: 18px;
+  }  
